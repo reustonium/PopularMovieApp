@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Popular Movies App</string>
+    <string name="sort_by_popular">Sort by Popular</string>
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="plot_synopsis">Plot Synopsis:</string>
+    <string name="release_date">Release Date:</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detailTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="TextView"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/detailPosterIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailTitleTV" />
+
+        <TextView
+            android:id="@+id/detailPlotTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailPosterIV"
+            android:padding="16dp"
+            android:text="@string/plot_synopsis" />
+
+        <TextView
+            android:id="@+id/detailPlotTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailPosterIV"
+            android:layout_toRightOf="@+id/detailPlotTitleTV"
+            android:padding="16dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/detailRatingTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailPlotTV"
+            android:padding="16dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/detailRatingTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailPlotTV"
+            android:layout_toRightOf="@+id/detailRatingTitleTV"
+            android:padding="16dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/releasedTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailRatingTV"
+            android:padding="16dp"
+            android:text="@string/release_date" />
+
+    </RelativeLayout>
+</ScrollView>
